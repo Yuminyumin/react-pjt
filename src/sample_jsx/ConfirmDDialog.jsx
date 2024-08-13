@@ -1,0 +1,12 @@
+import Button from './Button.jsx';
+
+function ConfirmDialog(){
+    return(
+        <div>
+            <p>확인 버튼을 눌러주세요</p>
+            <Button color='green'>확인</Button>
+        </div>
+    );
+}
+
+export default ConfirmDialog;

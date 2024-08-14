@@ -36,6 +36,46 @@ root.render(
   </React.StrictMode>
 );
 
+// import NotificationList from "./sample_state/NotificationList";
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <NotificationList />
+//   </React.StrictMode>
+// );
+
+// import Counter from "./sample_state/Counter";
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <Counter />
+//   </React.StrictMode>
+// );
+
+// import Accommodate from "./sample_hook/Accommodate";
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <Accommodate />
+//   </React.StrictMode>
+// );
+
+// import Capacity from "./sample_hook/Capacity";
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <Capacity />
+//   </React.StrictMode>
+// );
+
+// import ButtonEvent from "./sample_event/ButtonEvent";
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//   <React.StrictMode>
+//     <ButtonEvent />
+//   </React.StrictMode>
+// );
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals

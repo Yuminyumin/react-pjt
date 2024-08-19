@@ -63,20 +63,20 @@ import reportWebVitals from "./reportWebVitals";
 // );
 
 
-import RouterApp from './RouterApp';
-import Header from './layout/Header';
-import Footer from './layout/Footer';
-import {BrowserRouter} from 'react-router-dom';
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Header/>
-      <RouterApp />
-      <Footer/>
-    </BrowserRouter>
-  </React.StrictMode>
-);
+// import RouterApp from './RouterApp';
+// import Header from './layout/Header';
+// import Footer from './layout/Footer';
+// import {BrowserRouter} from 'react-router-dom';
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <BrowserRouter>
+//       <Header/>
+//       <RouterApp />
+//       <Footer/>
+//     </BrowserRouter>
+//   </React.StrictMode>
+// );
 
 
 
@@ -113,6 +113,22 @@ root.render(
 //     <ButtonEvent />
 //   </React.StrictMode>
 // );
+
+// import ContextApp from './sample_context/ContextApp';
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <ContextApp />
+//   </React.StrictMode>
+// );
+
+import DarkOrLight  from './sample_context/DarkOrLight';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <DarkOrLight  />
+  </React.StrictMode>
+);
 
 
 // If you want to start measuring performance in your app, pass a function

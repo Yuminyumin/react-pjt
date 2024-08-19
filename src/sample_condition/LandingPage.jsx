@@ -5,11 +5,11 @@ function LandingPage() {
     const [ isLogin, setIsLogin] = useState(false);
     const loginHandler = () => {
         console.log("debug >>> login btn click");
-        setIsLogin(!isLogin);
+        setIsLogin(true);
     }
     const logoutHandler = () => {
         console.log("debug >>> logout btn click");
-        setIsLogin(!isLogin);
+        setIsLogin(false);
     }
     return(
         <div className="container">

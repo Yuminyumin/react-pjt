@@ -22,9 +22,9 @@ function ToolBar(props) {
 		<div style={styles.wrapper}>
 			{isLogin && <span style={styles.greeting}>섭섭해님 환영합니다.</span>}
 			{isLogin ? (
-				<LogoutButton onClick={onClickLogin} />
+				<LogoutButton onClick={onClickLogout} />
 			) : (
-				<LoginButton onClick={onClickLogout} />
+				<LoginButton onClick={onClickLogin} />
 			)}
 		</div>
 	);

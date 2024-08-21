@@ -36,7 +36,7 @@ function Accommodate(props) {
               입장
       </button>
       &nbsp;&nbsp;&nbsp;
-      <button onClick={decreseCnt}
+      <button onClick={decreaseCnt}
               class="btn btn-danger">
               퇴장
       </button>
